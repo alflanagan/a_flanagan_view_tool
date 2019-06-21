@@ -24,7 +24,7 @@ Or install it yourself as:
 
 ```ruby
   def set_copyright
-    @copyright = AFlanaganDevcampViewTool::Renderer.copyright(
+    @copyright = AFlanaganViewTool::Renderer.copyright(
       'A Lloyd Flanagan',
       'All rights reserved'
     )

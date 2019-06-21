@@ -1,8 +1,7 @@
-
-lib = File.expand_path("../lib", __FILE__)
+lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "a_flanagan_view_tool/version"
-require "a_flanagan_view_tool/renderer.rb"
+require 'a_flanagan_view_tool/version'
+require 'a_flanagan_view_tool/renderer.rb'
 
 Gem::Specification.new do |spec|
   spec.name          = "a_flanagan_view_tool"

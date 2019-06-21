@@ -1,4 +1,4 @@
-require "a_flanagan_view_tool/version"
+require 'a_flanagan_view_tool/version'
 
 module AFlanaganViewTool
   class Error < StandardError; end
