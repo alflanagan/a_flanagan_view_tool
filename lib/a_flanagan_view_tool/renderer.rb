@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module AFlanaganViewTool
   # A class to do the rendering for this gem
   class Renderer
